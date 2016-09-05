@@ -79,17 +79,17 @@ public class DetailFragment extends Fragment {
             case "2":
                 textViewWord.setText("Orange");
                 textViewMeaning.setText("橘子");
-                textViewSample.setText("This orange is very nice.");
+                textViewSample.setText("Orange juice dribbled down his chin.");
                 break;
             case "3":
                 textViewWord.setText("Banana");
                 textViewMeaning.setText("香蕉");
-                textViewSample.setText("This banana is very nice.");
+                textViewSample.setText("Eating bananas is good for digesting.");
                 break;
             case "4":
                 textViewWord.setText("Lemon");
                 textViewMeaning.setText("柠檬");
-                textViewSample.setText("This lemon is very nice.");
+                textViewSample.setText("A lemon is an acid fruit.");
         }
 
         return view;
